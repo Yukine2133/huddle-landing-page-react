@@ -11,7 +11,7 @@ function App() {
     <main className="px-8 py-6 md:px-10 xl:px-14 lg:py-12">
       <header>
         <m.img
-          className="w-1/3 md:w-[20%] xl:w-[14%]"
+          className="w-1/4 md:w-[25%] xl:w-[14%]"
           variants={slideIn("up", 0.4)}
           animate="show"
           initial="hidden"
@@ -21,7 +21,7 @@ function App() {
       <article className=" pt-16 grid lg:grid-cols-2">
         <section>
           <m.img
-            className="w-full md:w-1/2 lg:w-full mx-auto lg:mx-0 lg:pt-24 xl:pt-0"
+            className="w-10/12 lg:w-full mx-auto lg:mx-0 lg:pt-24 xl:pt-0"
             variants={slideIn("left", 0.5)}
             initial="hidden"
             animate="show"
